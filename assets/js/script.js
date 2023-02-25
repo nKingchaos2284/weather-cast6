@@ -12,7 +12,7 @@ var thirdDay = document.querySelector('#day-3');
 var fourthDay = document.querySelector('#day-4');
 var fifthDay = document.querySelector('#day-5');
 
-var apiKey = '65ef1ab7716004b40ee3581702fa7229';
+var apiKey = 'd057f499f7045a92d89fba4fc665ba1a';
 
 var searchHistory = [];
 // renders history list under search history
