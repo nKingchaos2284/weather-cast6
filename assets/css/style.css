@@ -1,0 +1,92 @@
+body {
+  margin: 2px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+  color: #F7F9FB;
+  background-color: #279fd6;
+  text-align: center;
+  font-size: 48px;
+  padding: 18px;
+  text-decoration: underline;
+}
+
+main {
+  display: flex;
+}
+
+aside {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  width: 200px;
+  padding: 5px;
+}
+/* style for both search and history buttons */
+button {
+  width: 150px;
+  padding: 5px;
+  margin: 15px;
+  background-color: #318e6f;
+  color: #F7F9FB
+}
+
+#history {
+  width: 80%;
+  border-top: 2px solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#results {
+  width: 60%;
+}
+
+#weather-header {
+  display: flex;
+}
+
+#current-weather {
+  background-color: #e7e7e7;
+  padding: 20px;
+  border-bottom: 2px solid #31708E;
+  border-left: 2px solid #2f3095;
+  border-right: 2px solid #31708E;
+}
+
+img {
+  margin: 12px;
+}
+
+#forecast {
+  display: flex;
+  justify-content: space-between;
+}
+
+.days {
+  background-color: #687864;
+  color: #F7F9FB;
+  min-width: 180px;
+  text-align: center;
+  border: 2px solid #97b88f
+}
+
+/* hides content until class is removed */
+.hidden {
+  display: none;
+}
+
+/* history buttons */
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0px;
+}
+
+
